@@ -1,0 +1,62 @@
+buildscript {
+    repositories {
+        jcenter()
+        maven { url = "http://files.minecraftforge.net/maven" }
+    }
+    dependencies {
+        classpath 'net.minecraftforge.gradle:ForgeGradle:2.2-SNAPSHOT'
+    }
+}
+apply plugin: 'net.minecraftforge.gradle.forge'
+//Only edit below this line, the above code adds and enables the nessasary things for Forge to be setup.
+
+
+version = "${version}"
+group= "com.kashdeya.moreshears" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
+archivesBaseName = "moreshears"
+
+sourceCompatibility = targetCompatibility = "1.6" // Need this here so eclipse task generates correctly.
+compileJava {
+    sourceCompatibility = targetCompatibility = "1.6"
+}
+
+minecraft {
+    runDir = "run"
+	mappings = "${mappings_version}"
+    version = "${mcversion}-${forge_version}"
+    replaceIn "${mod_info_path}"
+    replace "%VERSION%", "${version}"
+    replace "%FORGE_VERSION%", "${forge_version}"
+}
+
+display_version = "${display_version}" ?: "${mcversion}"
+version = "${display_version}-${mod_version}"
+
+processResources
+{
+    inputs.property "version", project.version
+    inputs.property "mcversion", project.minecraft.version
+
+    from(sourceSets.main.resources.srcDirs) {
+        include 'mcmod.info'
+                
+        expand 'version':project.version, 'mcversion':project.minecraft.version
+    }
+        
+    from(sourceSets.main.resources.srcDirs) {
+        exclude 'mcmod.info'
+    }
+}
+
+dependencies {
+    compile files(
+        'libs/BaseMetals/BaseMetals_1.10.2-2.4.0.11jar',
+        'libs/ImmersiveEngineering/ImmersiveEngineering-0.10-57.jar',
+        'libs/Adamantiun/Adamantium Mod-1.6.3.jar',
+        'libs/taiga/taiga-1.10.2-1.2.6.jar',
+    )
+}
+
+jar {
+    classifier = 'release'
+}
