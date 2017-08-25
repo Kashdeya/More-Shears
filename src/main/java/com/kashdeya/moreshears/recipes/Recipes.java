@@ -1,14 +1,12 @@
 package com.kashdeya.moreshears.recipes;
 
-import net.minecraft.init.Items;
-import net.minecraft.item.ItemStack;
-import net.minecraftforge.fml.common.Loader;
-import net.minecraftforge.fml.common.registry.GameRegistry;
-import net.minecraftforge.oredict.ShapedOreRecipe;
-
 import com.kashdeya.moreshears.handlers.ConfigHandler;
 import com.kashdeya.moreshears.inits.MoreItems;
-import com.reygok.adamantiummod.init.AdaItems;
+
+import net.minecraft.init.Items;
+import net.minecraft.item.ItemStack;
+import net.minecraftforge.fml.common.registry.GameRegistry;
+import net.minecraftforge.oredict.ShapedOreRecipe;
 
 public class Recipes {
 	
@@ -123,14 +121,16 @@ public class Recipes {
 			GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(MoreItems.immersiveUranium_shears), "a ", " a", 'a', "ingotUranium"));
 		}
 		
-		// Adamantium
+		// Adamantium (OUTDATED)
+		/*
 		if (Loader.isModLoaded("adamantium")){
 			if (ConfigHandler.adamantium_shears){
 				GameRegistry.addShapedRecipe(new ItemStack(MoreItems.Adamantium_shears), new Object[] {" w", "w ", 'w', new ItemStack(AdaItems.adamantiumIngot)});
 			}
 		}
-		
-		// Taiga
+		*/
+		// Taiga (OUTDATED)
+		/*
 		if (Loader.isModLoaded("taiga")){
 			if (ConfigHandler.Abyssum_shears){
 				GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(MoreItems.Abyssum_shears), "www", " sw", " s ", 'w', "ingotAbyssum"));
@@ -244,6 +244,7 @@ public class Recipes {
 				GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(MoreItems.Yrdeen_shears), "www", " sw", " s ", 'w', "ingotYrdeen"));
 			}
 		}
+		*/
 	}
 
 }
