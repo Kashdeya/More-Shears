@@ -34,7 +34,7 @@ item.immersiveLeadShears.name=Lead Shears
 item.immersiveNickelShears.name=Nickel Shears
 item.immersiveSilverShears.name=Silver Shears
 item.immersiveSteelShears.name=Steel Shears
-item.immersiveUraniumShears.nameUranium Shears
+item.immersiveUraniumShears.name=Uranium Shears
 
 #Group
 itemGroup.MoreShears=More Shears
