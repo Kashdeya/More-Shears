@@ -9,8 +9,4 @@ public class CommonProxy {
     	Recipes.registerRecipes();
     }
     
-	public void registerRenderers() {
-		//unused - only called clientside
-	}
-
 }
