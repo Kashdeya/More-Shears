@@ -2,7 +2,7 @@ package com.kashdeya.moreshears.tabs;
 
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.init.Items;
-import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
 
 public class TabItems extends CreativeTabs {
 
@@ -11,8 +11,8 @@ public class TabItems extends CreativeTabs {
 	}
 
 	@Override
-	public Item getTabIconItem() {
-		return Items.SHEARS;
+	public ItemStack getTabIconItem() {
+		return new ItemStack(Items.SHEARS);
 	}
 
 }
