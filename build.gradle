@@ -15,9 +15,9 @@ version = "${version}"
 group= "com.kashdeya.moreshears" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = "moreshears"
 
-sourceCompatibility = targetCompatibility = "1.6" // Need this here so eclipse task generates correctly.
+sourceCompatibility = targetCompatibility = "1.8" // Need this here so eclipse task generates correctly.
 compileJava {
-    sourceCompatibility = targetCompatibility = "1.6"
+    sourceCompatibility = targetCompatibility = "1.8"
 }
 
 minecraft {
@@ -50,10 +50,8 @@ processResources
 
 dependencies {
     compile files(
-        'libs/BaseMetals/BaseMetals_1.10.2-2.4.0.11jar',
-        'libs/ImmersiveEngineering/ImmersiveEngineering-0.10-57.jar',
-        'libs/Adamantiun/Adamantium Mod-1.6.3.jar',
-        'libs/taiga/taiga-1.10.2-1.2.6.jar',
+        'libs/BaseMetals-1.11.2-2.5.0-beta1.45.jar',
+        'libs/ImmersiveEngineering-0.11-63.jar'
     )
 }
 
