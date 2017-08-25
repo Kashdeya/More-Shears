@@ -4,7 +4,7 @@ buildscript {
         maven { url = "http://files.minecraftforge.net/maven" }
     }
     dependencies {
-        classpath 'net.minecraftforge.gradle:ForgeGradle:2.2-SNAPSHOT'
+        classpath 'net.minecraftforge.gradle:ForgeGradle:2.3-SNAPSHOT'
     }
 }
 apply plugin: 'net.minecraftforge.gradle.forge'
@@ -50,8 +50,7 @@ processResources
 
 dependencies {
     compile files(
-        'libs/BaseMetals-1.11.2-2.5.0-beta1.45.jar',
-        'libs/ImmersiveEngineering-0.11-63.jar'
+        'libs/ImmersiveEngineering-0.12-71.jar'
     )
 }
 
