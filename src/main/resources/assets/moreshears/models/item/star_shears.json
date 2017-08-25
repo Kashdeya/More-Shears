@@ -1,6 +1,6 @@
 {
     "parent": "item/handheld",
     "textures": {
-        "layer0": "moreshears:items/woodenShears"
+        "layer0": "moreshears:items/star_shears"
     }
 }

@@ -1,6 +1,6 @@
 {
     "parent": "item/handheld",
     "textures": {
-        "layer0": "moreshears:items/adamantineShears"
+        "layer0": "moreshears:items/lead_shears"
     }
 }

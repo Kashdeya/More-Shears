@@ -1,6 +1,6 @@
 {
     "parent": "item/handheld",
     "textures": {
-        "layer0": "moreshears:items/copperShears"
+        "layer0": "moreshears:items/cupronickel_shears"
     }
 }

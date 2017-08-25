@@ -1,6 +1,6 @@
 {
     "parent": "item/handheld",
     "textures": {
-        "layer0": "moreshears:items/coldShears"
+        "layer0": "moreshears:items/aquarium_shears"
     }
 }
