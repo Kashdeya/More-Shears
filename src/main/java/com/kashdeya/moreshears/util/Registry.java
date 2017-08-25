@@ -49,14 +49,12 @@ public class Registry
 	
 	public void register(Block block)
 	{
-//		blocks.add(block); 1.12 usage
-		GameRegistry.register(block);
+		blocks.add(block);
 	}
 	
 	public void register(Item item)
 	{
-//		items.add(item); 1.12 usage
-		GameRegistry.register(item);
+		items.add(item);
 	}
 	
 	public void register(Class<? extends TileEntity> clazz, String name)
