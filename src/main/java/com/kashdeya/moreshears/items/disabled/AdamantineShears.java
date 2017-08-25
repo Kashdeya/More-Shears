@@ -1,10 +1,8 @@
-package com.kashdeya.moreshears.items;
+package com.kashdeya.moreshears.items.disabled;
 
 import com.kashdeya.moreshears.handlers.ConfigHandler;
+import com.kashdeya.moreshears.items.Shears;
 import com.kashdeya.moreshears.main.MoreShears;
-import com.mcmoddev.basemetals.data.MaterialNames;
-import com.mcmoddev.basemetals.init.Items;
-import com.mcmoddev.lib.data.Names;
 
 import net.minecraft.item.ItemStack;
 
@@ -21,6 +19,7 @@ public class AdamantineShears extends Shears {
     @Override
     public ItemStack getRepairMaterial()
     {
-        return new ItemStack(Items.getItemByName(MaterialNames.ADAMANTINE + "_" + Names.INGOT));
+		return ItemStack.EMPTY;
+//        return new ItemStack(Items.getItemByName(MaterialNames.ADAMANTINE + "_" + Names.INGOT));
     }
 }
