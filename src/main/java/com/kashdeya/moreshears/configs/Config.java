@@ -25,23 +25,23 @@ public class Config {
 		category = "More Shears";
 		
 		config.addCustomCategoryComment(category + " BaseMetal Shears", "True or False (BaseMetals Support needs to be enabled above.)");
-		ConfigHandler.adamantineShears = config.getBoolean("Adamantine Shears", category + " BaseMetal Shears", true, "Enable Adamantine Shears?");
-		ConfigHandler.aquariumShears = config.getBoolean("Aquarium Shears", category + " BaseMetal Shears", true, "Enable Aquarium Shears?");
-		ConfigHandler.brassShears = config.getBoolean("Brass Shears", category + " BaseMetal Shears", true, "Enable Brass Shears?");
-		ConfigHandler.bronzeShears = config.getBoolean("Bronze Shears", category + " BaseMetal Shears", true, "Enable Bronze Shears?");
-		ConfigHandler.coldShears = config.getBoolean("Cold-Iron Shears", category + " BaseMetal Shears", true, "Enable Cold-Iron Shears?");
-		ConfigHandler.copperShears = config.getBoolean("Copper Shears", category + " BaseMetal Shears", true, "Enable Copper Shears?");
-		ConfigHandler.cupronickelShears = config.getBoolean("Cupronickel Shears", category + " BaseMetal Shears", true, "Enable Cupronickel Shears?");
-		ConfigHandler.electrumShears = config.getBoolean("Electrum Shears", category + " BaseMetal Shears", true, "Enable Electrum Shears?");
-		ConfigHandler.invarShears = config.getBoolean("Invar Shears", category + " BaseMetal Shears", true, "Enable Invar Shears?");
-		ConfigHandler.leadShears = config.getBoolean("Lead Shears", category + " BaseMetal Shears", true, "Enable Lead Shears?");
-		ConfigHandler.mithrilShears = config.getBoolean("Mithril Shears", category + " BaseMetal Shears", true, "Enable Mithril Shears?");
-		ConfigHandler.nickelShears = config.getBoolean("Nickel Shears", category + " BaseMetal Shears", true, "Enable Nickel Shears?");
-		ConfigHandler.platinumShears = config.getBoolean("Platinum Shears", category + " BaseMetal Shears", true, "Enable Platinum Shears?");
-		ConfigHandler.silverShears = config.getBoolean("Silver Shears", category + " BaseMetal Shears", true, "Enable Silver Shears?");
-		ConfigHandler.starShears = config.getBoolean("Star Steel Shears", category + " BaseMetal Shears", true, "Enable Star Steel Shears?");
-		ConfigHandler.steelShears = config.getBoolean("Steel Shears", category + " BaseMetal Shears", true, "Enable Steel Shears?");
-		ConfigHandler.tinShears = config.getBoolean("Tin Shears", category + " BaseMetal Shears", true, "Enable Tin Shears?");
+		ConfigHandler.adamantine_shears = config.getBoolean("Adamantine Shears", category + " BaseMetal Shears", true, "Enable Adamantine Shears?");
+		ConfigHandler.aquarium_shears = config.getBoolean("Aquarium Shears", category + " BaseMetal Shears", true, "Enable Aquarium Shears?");
+		ConfigHandler.brass_shears = config.getBoolean("Brass Shears", category + " BaseMetal Shears", true, "Enable Brass Shears?");
+		ConfigHandler.bronze_shears = config.getBoolean("Bronze Shears", category + " BaseMetal Shears", true, "Enable Bronze Shears?");
+		ConfigHandler.cold_shears = config.getBoolean("Cold-Iron Shears", category + " BaseMetal Shears", true, "Enable Cold-Iron Shears?");
+		ConfigHandler.copper_shears = config.getBoolean("Copper Shears", category + " BaseMetal Shears", true, "Enable Copper Shears?");
+		ConfigHandler.cupronickel_shears = config.getBoolean("Cupronickel Shears", category + " BaseMetal Shears", true, "Enable Cupronickel Shears?");
+		ConfigHandler.electrum_shears = config.getBoolean("Electrum Shears", category + " BaseMetal Shears", true, "Enable Electrum Shears?");
+		ConfigHandler.invar_shears = config.getBoolean("Invar Shears", category + " BaseMetal Shears", true, "Enable Invar Shears?");
+		ConfigHandler.lead_shears = config.getBoolean("Lead Shears", category + " BaseMetal Shears", true, "Enable Lead Shears?");
+		ConfigHandler.mithril_shears = config.getBoolean("Mithril Shears", category + " BaseMetal Shears", true, "Enable Mithril Shears?");
+		ConfigHandler.nickel_shears = config.getBoolean("Nickel Shears", category + " BaseMetal Shears", true, "Enable Nickel Shears?");
+		ConfigHandler.platinum_shears = config.getBoolean("Platinum Shears", category + " BaseMetal Shears", true, "Enable Platinum Shears?");
+		ConfigHandler.silver_shears = config.getBoolean("Silver Shears", category + " BaseMetal Shears", true, "Enable Silver Shears?");
+		ConfigHandler.star_shears = config.getBoolean("Star Steel Shears", category + " BaseMetal Shears", true, "Enable Star Steel Shears?");
+		ConfigHandler.steel_shears = config.getBoolean("Steel Shears", category + " BaseMetal Shears", true, "Enable Steel Shears?");
+		ConfigHandler.tin_shears = config.getBoolean("Tin Shears", category + " BaseMetal Shears", true, "Enable Tin Shears?");
 		
 		config.addCustomCategoryComment(category + " BaseMetal Shears Durability", "Enables you to change the ammount of Durability a pair of Shears have.");
 		ConfigHandler.adamantineDamage = config.getInt("Adamantine Shears", category + " BaseMetal Shears Durability", 3200, 0, Integer.MAX_VALUE, "Sets the ammount of Durability.");
@@ -63,9 +63,9 @@ public class Config {
 		ConfigHandler.tinDamage = config.getInt("Tin Shears", category + " BaseMetal Shears Durability", 32, 0, Integer.MAX_VALUE, "Sets the ammount of Durability.");
 		
 		config.addCustomCategoryComment(category + " Immersive Engineering Shears", "True or False (Immersive Engineering Support needs to be enabled above.)");
-		ConfigHandler.immersiveAluminiumShears = config.getBoolean("Aluminium Shears", category + " Immersive Engineering Shears", true, "Enable Aluminium Shears?");
-		ConfigHandler.immersiveConstantanShears = config.getBoolean("Constantan Shears", category + " Immersive Engineering Shears", true, "Enable Constantan Shears?");
-		ConfigHandler.immersiveUraniumShears = config.getBoolean("Uranium Shears", category + " Immersive Engineering Shears", true, "Enable Uranium Shears?");
+		ConfigHandler.immersiveAluminium_shears = config.getBoolean("Aluminium Shears", category + " Immersive Engineering Shears", true, "Enable Aluminium Shears?");
+		ConfigHandler.immersiveConstantan_shears = config.getBoolean("Constantan Shears", category + " Immersive Engineering Shears", true, "Enable Constantan Shears?");
+		ConfigHandler.immersiveUranium_shears = config.getBoolean("Uranium Shears", category + " Immersive Engineering Shears", true, "Enable Uranium Shears?");
 		
 		config.addCustomCategoryComment(category + " Immersive Engineering Shears Durability", "Enables you to change the ammount of Durability a pair of Shears have.");
 		ConfigHandler.immersiveAluminiumDamage = config.getInt("Aluminium Shears", category + " Immersive Engineering Shears Durability", 255, 0, Integer.MAX_VALUE, "Sets the ammount of Durability.");
@@ -73,12 +73,12 @@ public class Config {
 		ConfigHandler.immersiveUraniumDamage = config.getInt("Uranium Shears", category + " Immersive Engineering Shears Durability", 128, 0, Integer.MAX_VALUE, "Sets the ammount of Durability.");
 		
 		config.addCustomCategoryComment(category + " Vanilla Shears", "True or False (Vanilla Support needs to be enabled above.)");
-		ConfigHandler.diamondShears = config.getBoolean("Diamond Shears", category + " Vanilla Shears", true, "Enable Diamond Shears?");
-		ConfigHandler.goldenShears = config.getBoolean("Golden Shears", category + " Vanilla Shears", true, "Enable Golden Shears?");
-		ConfigHandler.stoneShears = config.getBoolean("Stone Shears", category + " Vanilla Shears", true, "Enable Stone Shears?");
+		ConfigHandler.diamond_shears = config.getBoolean("Diamond Shears", category + " Vanilla Shears", true, "Enable Diamond Shears?");
+		ConfigHandler.golden_shears = config.getBoolean("Golden Shears", category + " Vanilla Shears", true, "Enable Golden Shears?");
+		ConfigHandler.stone_shears = config.getBoolean("Stone Shears", category + " Vanilla Shears", true, "Enable Stone Shears?");
 		ConfigHandler.wooden_shears = config.getBoolean("Wooden Shears", category + " Vanilla Shears", true, "Enable Wooden Shears?");
-		ConfigHandler.flintShears = config.getBoolean("Flint Shears", category + " Vanilla Shears", true, "Enable Flint Shears?");
-		ConfigHandler.emeraldShears = config.getBoolean("Emerald Shears", category + " Vanilla Shears", true, "Enable Emerald Shears?");
+		ConfigHandler.flint_shears = config.getBoolean("Flint Shears", category + " Vanilla Shears", true, "Enable Flint Shears?");
+		ConfigHandler.emerald_shears = config.getBoolean("Emerald Shears", category + " Vanilla Shears", true, "Enable Emerald Shears?");
 		
 		config.addCustomCategoryComment(category + " Vanilla Shears Durability", "Enables you to change the ammount of Durability a pair of Shears have.");
 		ConfigHandler.diamondDamage = config.getInt("Diamond Shears", category + " Vanilla Shears Durability", 1561, 0, Integer.MAX_VALUE, "Sets the ammount of Durability.");
