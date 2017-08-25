@@ -1,39 +1,38 @@
 package com.kashdeya.moreshears.inits;
 
 import com.kashdeya.moreshears.handlers.ConfigHandler;
-import com.kashdeya.moreshears.items.adamantineShears;
-import com.kashdeya.moreshears.items.aquariumShears;
-import com.kashdeya.moreshears.items.brassShears;
-import com.kashdeya.moreshears.items.bronzeShears;
-import com.kashdeya.moreshears.items.coldShears;
-import com.kashdeya.moreshears.items.copperShears;
-import com.kashdeya.moreshears.items.cupronickelShears;
-import com.kashdeya.moreshears.items.diamondShears;
-import com.kashdeya.moreshears.items.electrumShears;
-import com.kashdeya.moreshears.items.emeraldShears;
-import com.kashdeya.moreshears.items.flintShears;
-import com.kashdeya.moreshears.items.goldenShears;
-import com.kashdeya.moreshears.items.immersiveAluminiumShears;
-import com.kashdeya.moreshears.items.immersiveConstantanShears;
-import com.kashdeya.moreshears.items.immersiveUraniumShears;
-import com.kashdeya.moreshears.items.invarShears;
-import com.kashdeya.moreshears.items.leadShears;
-import com.kashdeya.moreshears.items.mithrilShears;
-import com.kashdeya.moreshears.items.nickelShears;
-import com.kashdeya.moreshears.items.platinumShears;
-import com.kashdeya.moreshears.items.silverShears;
-import com.kashdeya.moreshears.items.starShears;
-import com.kashdeya.moreshears.items.steelShears;
-import com.kashdeya.moreshears.items.stoneShears;
-import com.kashdeya.moreshears.items.tinShears;
-import com.kashdeya.moreshears.items.woodenShears;
-import com.kashdeya.moreshears.items.woodenShears;
+import com.kashdeya.moreshears.items.AdamantineShears;
+import com.kashdeya.moreshears.items.AquariumShears;
+import com.kashdeya.moreshears.items.BrassShears;
+import com.kashdeya.moreshears.items.BronzeShears;
+import com.kashdeya.moreshears.items.ColdShears;
+import com.kashdeya.moreshears.items.CopperShears;
+import com.kashdeya.moreshears.items.CupronickelShears;
+import com.kashdeya.moreshears.items.DiamondShears;
+import com.kashdeya.moreshears.items.ElectrumShears;
+import com.kashdeya.moreshears.items.EmeraldShears;
+import com.kashdeya.moreshears.items.FlintShears;
+import com.kashdeya.moreshears.items.GoldenShears;
+import com.kashdeya.moreshears.items.ImmersiveAluminiumShears;
+import com.kashdeya.moreshears.items.ImmersiveConstantanShears;
+import com.kashdeya.moreshears.items.ImmersiveUraniumShears;
+import com.kashdeya.moreshears.items.InvarShears;
+import com.kashdeya.moreshears.items.LeadShears;
+import com.kashdeya.moreshears.items.MithrilShears;
+import com.kashdeya.moreshears.items.NickelShears;
+import com.kashdeya.moreshears.items.PlatinumShears;
+import com.kashdeya.moreshears.items.SilverShears;
+import com.kashdeya.moreshears.items.StarShears;
+import com.kashdeya.moreshears.items.SteelShears;
+import com.kashdeya.moreshears.items.StoneShears;
+import com.kashdeya.moreshears.items.TinShears;
+import com.kashdeya.moreshears.items.WoodenShears;
+import com.kashdeya.moreshears.main.MoreShears;
 import com.kashdeya.moreshears.main.Reference;
 
 import net.minecraft.item.Item;
 import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.fml.common.Loader;
-import net.minecraftforge.fml.common.registry.GameRegistry;
 
 public class MoreItems {
 	// Vanilla
@@ -69,27 +68,27 @@ public class MoreItems {
 	public static void init(){
 		// Vanilla
 		if (ConfigHandler.wooden_shears){
-			wooden_shears = new woodenShears();
+			wooden_shears = new WoodenShears();
 			registerItem(wooden_shears, "wooden_shears");
 		}
 		if (ConfigHandler.golden_shears){
-			golden_shears = new goldenShears();
+			golden_shears = new GoldenShears();
 			registerItem(golden_shears, "golden_shears");
 		}
 		if (ConfigHandler.stone_shears){
-			stone_shears = new stoneShears();
+			stone_shears = new StoneShears();
 			registerItem(stone_shears, "stone_shears");
 		}
 		if (ConfigHandler.diamond_shears){
-			diamond_shears = new diamondShears();
+			diamond_shears = new DiamondShears();
 			registerItem(diamond_shears, "diamond_shears");
 		}
 		if (ConfigHandler.emerald_shears){
-			emerald_shears = new emeraldShears();
+			emerald_shears = new EmeraldShears();
 			registerItem(emerald_shears, "emerald_shears");
 		}
 		if (ConfigHandler.flint_shears){
-			flint_shears = new flintShears();
+			flint_shears = new FlintShears();
 			registerItem(flint_shears, "flint_shears");
 		}
 	    
@@ -97,47 +96,47 @@ public class MoreItems {
 		if (Loader.isModLoaded("basemetals"))
 		{
 		    if (ConfigHandler.tin_shears){
-		    	tin_shears = new tinShears();
+		    	tin_shears = new TinShears();
 		    	registerItem(tin_shears, "tin_shears");
 		    }
 		    if (ConfigHandler.platinum_shears){
-		    	platinum_shears = new platinumShears();
+		    	platinum_shears = new PlatinumShears();
 		    	registerItem(platinum_shears, "platinum_shears");
 		    }
 		    if (ConfigHandler.cold_shears){
-		    	cold_shears = new coldShears();
+		    	cold_shears = new ColdShears();
 		    	registerItem(cold_shears, "cold_shears");
 		    }
 		    if (ConfigHandler.mithril_shears){
-		    	mithril_shears = new mithrilShears();
+		    	mithril_shears = new MithrilShears();
 		    	registerItem(mithril_shears, "mithril_shears");
 		    }
 		    if (ConfigHandler.star_shears){
-		    	star_shears = new starShears();
+		    	star_shears = new StarShears();
 		    	registerItem(star_shears, "star_shears");
 		    }
 		    if (ConfigHandler.bronze_shears){
-		    	bronze_shears = new bronzeShears();
+		    	bronze_shears = new BronzeShears();
 		    	registerItem(bronze_shears, "bronze_shears");
 		    }
 		    if (ConfigHandler.brass_shears){
-		    	brass_shears = new brassShears();
+		    	brass_shears = new BrassShears();
 		    	registerItem(brass_shears, "brass_shears");
 		    }
 		    if (ConfigHandler.invar_shears){
-		    	invar_shears = new invarShears();
+		    	invar_shears = new InvarShears();
 		    	registerItem(invar_shears, "invar_shears");
 		    }
 		    if (ConfigHandler.aquarium_shears){
-		    	aquarium_shears = new aquariumShears();
+		    	aquarium_shears = new AquariumShears();
 		    	registerItem(aquarium_shears, "aquarium_shears");
 		    }
 		    if (ConfigHandler.adamantine_shears){
-		    	adamantine_shears = new adamantineShears();
+		    	adamantine_shears = new AdamantineShears();
 		    	registerItem(adamantine_shears, "adamantine_shears");
 		    }
 		    if (ConfigHandler.cupronickel_shears){
-		    	cupronickel_shears = new cupronickelShears();
+		    	cupronickel_shears = new CupronickelShears();
 		    	registerItem(cupronickel_shears, "cupronickel_shears");
 		    }
 		}
@@ -146,15 +145,15 @@ public class MoreItems {
 		if (Loader.isModLoaded("immersiveengineering"))
 		{
 			if (ConfigHandler.immersiveAluminium_shears){
-				immersiveAluminium_shears = new immersiveAluminiumShears();
+				immersiveAluminium_shears = new ImmersiveAluminiumShears();
 				registerItem(immersiveAluminium_shears, "immersiveAluminium_shears");
 			}
 			if (ConfigHandler.immersiveConstantan_shears){
-				immersiveConstantan_shears = new immersiveConstantanShears();
+				immersiveConstantan_shears = new ImmersiveConstantanShears();
 				registerItem(immersiveConstantan_shears, "immersiveConstantan_shears");
 			}
 			if (ConfigHandler.immersiveUranium_shears){
-				immersiveUranium_shears = new immersiveUraniumShears();
+				immersiveUranium_shears = new ImmersiveUraniumShears();
 				registerItem(immersiveUranium_shears, "immersiveUranium_shears");
 			}	
 		}
@@ -163,41 +162,43 @@ public class MoreItems {
 		if (Loader.isModLoaded("basemetals") || Loader.isModLoaded("immersiveengineering"))
 		{
 			if (ConfigHandler.copper_shears){
-				copper_shears = new copperShears();
+				copper_shears = new CopperShears();
 				registerItem(copper_shears, "copper_shears");
 			}
 			if (ConfigHandler.silver_shears){
-				silver_shears = new silverShears();
+				silver_shears = new SilverShears();
 				registerItem(silver_shears, "silver_shears");
 			}
 			if (ConfigHandler.lead_shears){
-		    	lead_shears = new leadShears();
+		    	lead_shears = new LeadShears();
 		    	registerItem(lead_shears, "lead_shears");
 		    }
 		    if (ConfigHandler.nickel_shears){
-		    	nickel_shears = new nickelShears();
+		    	nickel_shears = new NickelShears();
 		    	registerItem(nickel_shears, "nickel_shears");
 		    }
 		    if (ConfigHandler.steel_shears){
-		    	steel_shears = new steelShears();
+		    	steel_shears = new SteelShears();
 		    	registerItem(steel_shears, "steel_shears");
 		    }
 		    if (ConfigHandler.electrum_shears){
-		    	electrum_shears = new electrumShears();
+		    	electrum_shears = new ElectrumShears();
 		    	registerItem(electrum_shears, "electrum_shears");
 		    }
 		    
 		}
 		
-		// Adamantium
+		// Adamantium (OUTDATED)
+		/*
 		if (Loader.isModLoaded("adamantium")){
 			if (ConfigHandler.Adamantium_shears){
 				Adamantium_shears = new Adamantium_shears(ToolHandler.adamantiumToolMaterial);
 				registerItem(Adamantium_shears, "Adamantium_shears");
 			}
 		}
-		
-		// Taiga
+		*/
+		/*
+		// Taiga (OUTDATED)
 		if (Loader.isModLoaded("taiga")){
 			if (ConfigHandler.Abyssum_shears){
 				Abyssum_shears = new Abyssum_shears(ToolHandler.abyssumToolMaterial);
@@ -348,10 +349,13 @@ public class MoreItems {
 				registerItem(Yrdeen_shears, "Yrdeen_shears");
 			}
 		}
+		*/
 	}
 	
 	static void registerItem(Item item, String name){
-	    GameRegistry.register(item, new ResourceLocation(Reference.MOD_ID + ":" + name));
+		item.setRegistryName(new ResourceLocation(Reference.MOD_ID + ":" + name));
+	    MoreShears.REGISTRY.register(item);
+	    MoreShears.REGISTRY.render(item);
 	}
 
 }
