@@ -1,0 +1,32 @@
+#Vanilla
+item.woodenShears.name=Wooden Shears
+item.goldenShears.name=Golden Shears
+item.diamondShears.name=Diamond Shears
+item.stoneShears.name=Stone Shears
+item.emeraldShears.name=Emerald Shears
+item.flintShears.name=Flint Shears
+
+#Shears
+item.copperShears.name=Copper Shears
+item.silverShears.name=Silver Shears
+item.tinShears.name=Tin Shears
+item.leadShears.name=Lead Shears
+item.nickelShears.name=Nickel Shears
+item.platinumShears.name=Platinum Shears
+item.coldShears.name=Cold-Iron Shears
+item.mithrilShears.name=Mithril Shears
+item.starShears.name=Star-Steel Shears
+item.steelShears.name=Steel Shears
+item.bronzeShears.name=Bronze Shears
+item.brassShears.name=Brass Shears
+item.electrumShears.name=Electrum Shears
+item.invarShears.name=Invar Shears
+item.aquariumShears.name=Aquarium Shears
+item.adamantineShears.name=Adamantine Shears
+item.cupronickelShears.name=Cupronickel Shears
+item.aluminiumShears.name=Aluminium Shears
+item.constantanShears.name=Constantan Shears
+item.uraniumShears.name=Uranium Shears
+
+#Group
+itemGroup.MoreShears=More Shears

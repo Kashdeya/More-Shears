@@ -6,9 +6,9 @@ import com.kashdeya.moreshears.main.MoreShears;
 import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
 
-public class EmeraldShears extends Shears {
+public class emeraldShears extends Shears {
 	
-    public EmeraldShears()
+    public emeraldShears()
     {
     		this.maxStackSize = 1;
     		this.setMaxDamage(ConfigHandler.emeraldDamage);

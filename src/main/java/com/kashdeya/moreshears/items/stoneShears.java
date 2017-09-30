@@ -6,9 +6,9 @@ import com.kashdeya.moreshears.main.MoreShears;
 import net.minecraft.init.Blocks;
 import net.minecraft.item.ItemStack;
 
-public class StoneShears extends Shears {
+public class stoneShears extends Shears {
 	
-    public StoneShears()
+    public stoneShears()
     {
     		this.maxStackSize = 1;
     		this.setMaxDamage(ConfigHandler.stoneDamage);

@@ -6,12 +6,12 @@ import com.kashdeya.moreshears.main.MoreShears;
 import blusunrize.immersiveengineering.common.IEContent;
 import net.minecraft.item.ItemStack;
 
-public class SilverShears extends Shears {
+public class silverShears extends Shears {
 	
-    public SilverShears()
+    public silverShears()
     {
     		this.maxStackSize = 1;
-    		this.setMaxDamage(ConfigHandler.silverDamage);
+    		this.setMaxDamage(ConfigHandler.immersiveSilverDamage);
     		this.setCreativeTab(MoreShears.tabItems);
     		this.setUnlocalizedName("silverShears");
     }

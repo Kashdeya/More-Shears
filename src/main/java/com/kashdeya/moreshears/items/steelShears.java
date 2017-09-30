@@ -6,12 +6,12 @@ import com.kashdeya.moreshears.main.MoreShears;
 import blusunrize.immersiveengineering.common.IEContent;
 import net.minecraft.item.ItemStack;
 
-public class SteelShears extends Shears {
+public class steelShears extends Shears {
 	
-    public SteelShears()
+    public steelShears()
     {
     		this.maxStackSize = 1;
-    		this.setMaxDamage(ConfigHandler.silverDamage);
+    		this.setMaxDamage(ConfigHandler.immersiveSteelDamage);
     		this.setCreativeTab(MoreShears.tabItems);
     		this.setUnlocalizedName("steelShears");
     }

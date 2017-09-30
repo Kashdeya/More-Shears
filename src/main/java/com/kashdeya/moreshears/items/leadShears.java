@@ -6,12 +6,12 @@ import com.kashdeya.moreshears.main.MoreShears;
 import blusunrize.immersiveengineering.common.IEContent;
 import net.minecraft.item.ItemStack;
 
-public class LeadShears extends Shears {
+public class leadShears extends Shears {
 	
-    public LeadShears()
+    public leadShears()
     {
     		this.maxStackSize = 1;
-    		this.setMaxDamage(ConfigHandler.leadDamage);
+    		this.setMaxDamage(ConfigHandler.immersiveLeadDamage);
     		this.setCreativeTab(MoreShears.tabItems);
     		this.setUnlocalizedName("leadShears");
     }

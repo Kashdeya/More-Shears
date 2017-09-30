@@ -6,9 +6,9 @@ import com.kashdeya.moreshears.main.MoreShears;
 import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
 
-public class FlintShears extends Shears {
+public class flintShears extends Shears {
 	
-    public FlintShears()
+    public flintShears()
     {
     		this.maxStackSize = 1;
     		this.setMaxDamage(ConfigHandler.flintDamage);

@@ -6,12 +6,12 @@ import com.kashdeya.moreshears.main.MoreShears;
 import blusunrize.immersiveengineering.common.IEContent;
 import net.minecraft.item.ItemStack;
 
-public class CopperShears extends Shears {
+public class copperShears extends Shears {
 	
-    public CopperShears()
+    public copperShears()
     {
     		this.maxStackSize = 1;
-    		this.setMaxDamage(ConfigHandler.copperDamage);
+    		this.setMaxDamage(ConfigHandler.immersiveCopperDamage);
     		this.setCreativeTab(MoreShears.tabItems);
     		this.setUnlocalizedName("copperShears");
     }

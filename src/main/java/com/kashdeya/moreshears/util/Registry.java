@@ -20,6 +20,8 @@ import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.fml.client.registry.ClientRegistry;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.fml.common.registry.GameRegistry;
+import net.minecraftforge.fml.relauncher.Side;
+import net.minecraftforge.fml.relauncher.SideOnly;
 
 public class Registry
 {
@@ -36,7 +38,7 @@ public class Registry
 		blocks = Lists.newArrayList();
 		items = Lists.newArrayList();
 		tiles = Lists.newArrayList();
-		
+
 		renderers = Lists.newArrayList();
 		tileRenderers = Lists.newArrayList();
 		customStates = Lists.newArrayList();
