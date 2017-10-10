@@ -6,9 +6,9 @@ import com.kashdeya.moreshears.main.MoreShears;
 import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
 
-public class goldenShears extends Shears {
+public class GoldenShears extends Shears {
 	
-    public goldenShears()
+    public GoldenShears()
     {
     		this.maxStackSize = 1;
     		this.setMaxDamage(ConfigHandler.goldenDamage);

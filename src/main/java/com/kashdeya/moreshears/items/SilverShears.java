@@ -11,7 +11,7 @@ public class SilverShears extends Shears {
     public SilverShears()
     {
     		this.maxStackSize = 1;
-    		this.setMaxDamage(ConfigHandler.silverDamage);
+    		this.setMaxDamage(ConfigHandler.immersiveSilverDamage);
     		this.setCreativeTab(MoreShears.tabItems);
     		this.setUnlocalizedName("silverShears");
     }

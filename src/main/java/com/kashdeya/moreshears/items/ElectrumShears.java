@@ -11,7 +11,7 @@ public class ElectrumShears extends Shears {
     public ElectrumShears()
     {
     		this.maxStackSize = 1;
-    		this.setMaxDamage(ConfigHandler.electrumDamage);
+    		this.setMaxDamage(ConfigHandler.immersiveElectrumDamage);
     		this.setCreativeTab(MoreShears.tabItems);
     		this.setUnlocalizedName("electrumShears");
     }

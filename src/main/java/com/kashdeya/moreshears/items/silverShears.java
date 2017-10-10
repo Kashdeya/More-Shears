@@ -6,9 +6,9 @@ import com.kashdeya.moreshears.main.MoreShears;
 import blusunrize.immersiveengineering.common.IEContent;
 import net.minecraft.item.ItemStack;
 
-public class silverShears extends Shears {
+public class SilverShears extends Shears {
 	
-    public silverShears()
+    public SilverShears()
     {
     		this.maxStackSize = 1;
     		this.setMaxDamage(ConfigHandler.immersiveSilverDamage);

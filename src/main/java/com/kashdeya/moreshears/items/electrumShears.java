@@ -6,9 +6,9 @@ import com.kashdeya.moreshears.main.MoreShears;
 import blusunrize.immersiveengineering.common.IEContent;
 import net.minecraft.item.ItemStack;
 
-public class electrumShears extends Shears {
+public class ElectrumShears extends Shears {
 	
-    public electrumShears()
+    public ElectrumShears()
     {
     		this.maxStackSize = 1;
     		this.setMaxDamage(ConfigHandler.immersiveElectrumDamage);

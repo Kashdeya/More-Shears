@@ -6,9 +6,9 @@ import com.kashdeya.moreshears.main.MoreShears;
 import blusunrize.immersiveengineering.common.IEContent;
 import net.minecraft.item.ItemStack;
 
-public class copperShears extends Shears {
+public class CopperShears extends Shears {
 	
-    public copperShears()
+    public CopperShears()
     {
     		this.maxStackSize = 1;
     		this.setMaxDamage(ConfigHandler.immersiveCopperDamage);

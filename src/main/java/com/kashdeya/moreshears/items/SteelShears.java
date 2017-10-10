@@ -11,7 +11,7 @@ public class SteelShears extends Shears {
     public SteelShears()
     {
     		this.maxStackSize = 1;
-    		this.setMaxDamage(ConfigHandler.silverDamage);
+    		this.setMaxDamage(ConfigHandler.immersiveSteelDamage);
     		this.setCreativeTab(MoreShears.tabItems);
     		this.setUnlocalizedName("steelShears");
     }

@@ -11,7 +11,7 @@ public class NickelShears extends Shears {
     public NickelShears()
     {
     		this.maxStackSize = 1;
-    		this.setMaxDamage(ConfigHandler.nickelDamage);
+    		this.setMaxDamage(ConfigHandler.immersiveNickelDamage);
     		this.setCreativeTab(MoreShears.tabItems);
     		this.setUnlocalizedName("nickelShears");
     }

@@ -6,19 +6,19 @@ import com.kashdeya.moreshears.main.MoreShears;
 import blusunrize.immersiveengineering.common.IEContent;
 import net.minecraft.item.ItemStack;
 
-public class uraniumShears extends Shears {
+public class AluminiumShears extends Shears {
 	
-    public uraniumShears()
+    public AluminiumShears()
     {
     		this.maxStackSize = 1;
-    		this.setMaxDamage(ConfigHandler.immersiveUraniumDamage);
+    		this.setMaxDamage(ConfigHandler.immersiveAluminiumDamage);
     		this.setCreativeTab(MoreShears.tabItems);
-    		this.setUnlocalizedName("uraniumShears");
+    		this.setUnlocalizedName("aluminiumShears");
     }
-    
+
     @Override
     public ItemStack getRepairMaterial()
     {
-        return new ItemStack(IEContent.itemMetal, 1, 5);
+    		return new ItemStack(IEContent.itemMetal, 1, 1);
     }
 }

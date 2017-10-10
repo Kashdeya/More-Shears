@@ -11,7 +11,7 @@ public class CopperShears extends Shears {
     public CopperShears()
     {
     		this.maxStackSize = 1;
-    		this.setMaxDamage(ConfigHandler.copperDamage);
+    		this.setMaxDamage(ConfigHandler.immersiveCopperDamage);
     		this.setCreativeTab(MoreShears.tabItems);
     		this.setUnlocalizedName("copperShears");
     }

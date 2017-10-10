@@ -11,7 +11,7 @@ public class LeadShears extends Shears {
     public LeadShears()
     {
     		this.maxStackSize = 1;
-    		this.setMaxDamage(ConfigHandler.leadDamage);
+    		this.setMaxDamage(ConfigHandler.immersiveLeadDamage);
     		this.setCreativeTab(MoreShears.tabItems);
     		this.setUnlocalizedName("leadShears");
     }

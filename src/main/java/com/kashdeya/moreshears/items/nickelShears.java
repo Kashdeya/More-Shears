@@ -6,9 +6,9 @@ import com.kashdeya.moreshears.main.MoreShears;
 import blusunrize.immersiveengineering.common.IEContent;
 import net.minecraft.item.ItemStack;
 
-public class nickelShears extends Shears {
+public class NickelShears extends Shears {
 	
-    public nickelShears()
+    public NickelShears()
     {
     		this.maxStackSize = 1;
     		this.setMaxDamage(ConfigHandler.immersiveNickelDamage);

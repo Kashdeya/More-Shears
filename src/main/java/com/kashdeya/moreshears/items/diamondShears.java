@@ -6,9 +6,9 @@ import com.kashdeya.moreshears.main.MoreShears;
 import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
 
-public class diamondShears extends Shears {
+public class DiamondShears extends Shears {
 	
-    public diamondShears()
+    public DiamondShears()
     {
     		this.maxStackSize = 1;
     		this.setMaxDamage(ConfigHandler.diamondDamage);
